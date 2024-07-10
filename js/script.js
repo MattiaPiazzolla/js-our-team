@@ -34,6 +34,8 @@ const team = [
 ]
 // CICLO L'ARRAY CON UN FOR PER TRGHETIZZARE I SINGOLI OGGETTI
 for (let i = 0; i < team.length; i++){
-    // STAMPO IL VALORE NOME DEGLI OGGETTI DENTRO L'ARRAY 
+    // STAMPO IL VALORE NAME DEGLI OGGETTI DENTRO L'ARRAY 
     console.log(team[i].name);
+    // STAMPO IL VALORE ROLE DEGLI OGGETTI DENTRO L'ARRAY
+    console.log(team[i].role)
 }
