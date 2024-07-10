@@ -32,3 +32,7 @@ const team = [
         img:'barbara-ramos-graphic-designer.jpg',
     },
 ]
+// CICLO L'ARRAY CON UN FOR PER TRGHETIZZARE I SINGOLI OGGETTI
+for (let i = 0; i < team.length; i++){
+    
+}
