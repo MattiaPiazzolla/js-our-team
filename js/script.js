@@ -1,0 +1,33 @@
+// DEFINISCO UN'ARRAY DI OGGETTI
+const team = [
+    {
+        name:,
+        role:,
+        img:,
+    }
+    {
+        name:,
+        role:,
+        img:,
+    }
+    {
+        name:,
+        role:,
+        img:,
+    }
+    {
+        name:,
+        role:,
+        img:,
+    }
+    {
+        name:,
+        role:,
+        img:,
+    }
+    {
+        name:,
+        role:,
+        img:,
+    }
+]
