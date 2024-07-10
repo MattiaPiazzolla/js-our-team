@@ -58,6 +58,6 @@ for (let i = 0; i < team.length; i++){
     // CREO LA COLONNA NEL DOM CHIAMANDO LA FUNZIONE APPENA CREATA
     const col = createCol();
 
-    // INSERISCO GLI ELEMENTI DEGLI OGGETTI NEL DOM
-    cardDestination.innerHTML+=`${team[i].name} ${team[i].role} ${team[i].img} <br>`
+    // INSERISCO LE COLONNE CREATE NEL DOM
+    cardDestination.append(col);
 }
