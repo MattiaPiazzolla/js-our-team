@@ -1,6 +1,11 @@
 // DEFINISCO UNA FUNZIONE PER CREARE LE COLONNE CHE ANDRANNO AD OSPITARE LE CARD
 function createCol(){
-    
+    // DETERMINO QUALE ELEMENTO DEVE ESSERE CREATO 
+    const col = document.createElement('div');
+    // AGGIUNGO LE CLASSI ALLE MIE COLONNE
+    col.classList.add('col-12', 'col-md-6', 'col-lg-4');
+    // RESTITUISOC LA COLONNA
+    return col;
 }
 
 // DEFINISCO UN'ARRAY DI OGGETTI
