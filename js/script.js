@@ -41,3 +41,6 @@ for (let i = 0; i < team.length; i++){
     // STAMPO IL VALORE IMG DEGLI OGGETTI DENTRO L'ARRAY
     console.log(team[i].img)
 }
+
+// RECUPERO LA DESTINAZIONE DELLE INFORMAZIONI DAL DOM
+let cardDestination = document.getElementById('cardContainer');
