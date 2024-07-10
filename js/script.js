@@ -38,4 +38,6 @@ for (let i = 0; i < team.length; i++){
     console.log(team[i].name);
     // STAMPO IL VALORE ROLE DEGLI OGGETTI DENTRO L'ARRAY
     console.log(team[i].role)
+    // STAMPO IL VALORE IMG DEGLI OGGETTI DENTRO L'ARRAY
+    console.log(team[i].img)
 }
