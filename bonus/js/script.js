@@ -57,7 +57,12 @@ for (let i = 0; i < team.length; i++){
 
     // CREO LA COLONNA NEL DOM CHIAMANDO LA FUNZIONE APPENA CREATA
     const col = createCol();
-
+    // INSERISCO IL CONTENUTO ALLE COLONNE
+    col.innerHTML = `<div class="custom-card row g-0">
+                        <img src="./img/${team[i].img}" alt="">
+                        <p class="text-center mt-3 mb-0 fs-4 text-secondary">${team[i].name}</p>
+                        <p class="text-center mt-0 mb-3 fw-light text-secondary p-custom-header">${team[i].role}</p>
+                    </div>`
     // INSERISCO LE COLONNE CREATE NEL DOM
     cardDestination.append(col);
 }

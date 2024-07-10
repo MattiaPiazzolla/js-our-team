@@ -3,3 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: #F3F4EF;
+
+}
+
+.p-custom-header{
+    font-size: 12.5px;
+}
+
+.custom-card{
+    background-color: #fff;
+    transition: all .25s;
+}
+
+.custom-card:hover{
+    transform: scale(1.05);
+}
