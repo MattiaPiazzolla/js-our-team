@@ -54,6 +54,10 @@ for (let i = 0; i < team.length; i++){
     console.log(team[i].role)
     // STAMPO IL VALORE IMG DEGLI OGGETTI DENTRO L'ARRAY
     console.log(team[i].img)
+
+    // CREO LA COLONNA NEL DOM CHIAMANDO LA FUNZIONE APPENA CREATA
+    const col = createCol();
+
     // INSERISCO GLI ELEMENTI DEGLI OGGETTI NEL DOM
     cardDestination.innerHTML+=`${team[i].name} ${team[i].role} ${team[i].img} <br>`
 }
