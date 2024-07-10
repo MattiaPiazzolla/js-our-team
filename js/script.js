@@ -32,6 +32,10 @@ const team = [
         img:'barbara-ramos-graphic-designer.jpg',
     },
 ]
+
+// RECUPERO LA DESTINAZIONE DELLE INFORMAZIONI DAL DOM
+let cardDestination = document.getElementById('cardContainer');
+
 // CICLO L'ARRAY CON UN FOR PER TRGHETIZZARE I SINGOLI OGGETTI
 for (let i = 0; i < team.length; i++){
     // STAMPO IL VALORE NAME DEGLI OGGETTI DENTRO L'ARRAY 
@@ -40,7 +44,6 @@ for (let i = 0; i < team.length; i++){
     console.log(team[i].role)
     // STAMPO IL VALORE IMG DEGLI OGGETTI DENTRO L'ARRAY
     console.log(team[i].img)
+    // INSERISCO GLI ELEMENTI DEGLI OGGETTI NEL DOM
+    cardDestination.innerHTML+=`${team[i].name} ${team[i].role} ${team[i].img} <br>`
 }
-
-// RECUPERO LA DESTINAZIONE DELLE INFORMAZIONI DAL DOM
-let cardDestination = document.getElementById('cardContainer');
